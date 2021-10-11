@@ -1,0 +1,42 @@
+{
+  "context": {
+    "domainName": "Shopping",
+    "language": "EN",
+    "transactionId": "2021-10-11",
+    "securityToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJmaXJzdE5hbWUiOiJTeXN0ZW1fMSIsImxhc3ROYW1lIjoiU3lzdGVtIiwibG9nb25UeXBlIjoiWkEiLCJzdXBwbGllcklkIjoxMDAwLCJidXNpbmVzc0lkIjowLCJ1c2VySWQiOjE2MjY5MTQsImlzcyI6IkNoYXJ0ZXIgYW5kIEdvIGF1dGhlbnRpY2F0aW9uIiwiZXhwIjoxNjQyMDY5MTY0fQ.cmzGP_TLysvX-m0pFCSQZVySEtENQrX1-OvwXY3ysUYO7VfW-uDLjz5etmJQgjPkP6au48uM-zrTQn4PVr_PVM64XAWn1MhURfN2ZtO6w_TP7qFAOdEdIwvcYZjOXmMTX--4PyEiAtngwyuHLO0qka4NT0EplWYLviK7HU7yfehJhAW12sgx9yvJy4-5gf6wcYPPrHZ0wH9f27wFSMcFWQJi5nHBNieWF6Eg_i-mg3NMJDmcOncWgE-k1OLvvPGTG_fqvopEXHSUanfql31Fw1GGxiW1i8k6OiyAh4V94ZGgf_cL7t8uk8SaofBGsMLPOG5foQF9awtS9IMuacLiuQ"
+  },
+  "commonParms": {
+    "action": "READ",
+    "view": "SHOP",
+    "version": "1.0.0",
+    "client": "CAGPOS"
+  },
+  "request": {
+    "journey": [
+      {
+        "originAirportCode": "ESGG",
+        "destinationAirportCode": "EGGW",
+        "journeyItem": 1,
+        "departureDate": "2019-08-17",
+        "departureTime": "05:30",
+        "nnumber": "N12345"
+      },
+      {
+        "originAirportCode": "EGGW",
+        "destinationAirportCode": "LFPB",
+        "journeyItem": 2,
+        "departureDate": "2019-08-17",
+        "departureTime": "08:00",
+        "nnumber": "N12345"
+      },
+      {
+        "originAirportCode": "LFPB",
+        "destinationAirportCode": "ESGG",
+        "journeyItem": 3,
+        "departureDate": "2019-08-17",
+        "departureTime": "11:00",
+        "nnumber": "N12345"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource": "/",
+  "path": "/",
+  "httpMethod": "POST",
+  "headers": "None",
+  "multiValueHeaders": "None",
+  "queryStringParameters": "None",
+  "multiValueQueryStringParameters": "None",
+  "pathParameters": "None",
+  "stageVariables": "None",
+  "requestContext": {
+    "resourceId": "w721i6uj7e",
+    "resourcePath": "/",
+    "httpMethod": "POST",
+    "extendedRequestId": "G5mXaGVooAMFs1Q=",
+    "requestTime": "08/Oct/2021:17:47:27 +0000",
+    "path": "/",
+    "accountId": "901034071818",
+    "protocol": "HTTP/1.1",
+    "stage": "test-invoke-stage",
+    "domainPrefix": "testPrefix",
+    "requestTimeEpoch": 1633715247287,
+    "requestId": "0a9e9bed-6dd0-41d7-857e-a23eff2dab62",
+    "identity": {
+      "cognitoIdentityPoolId": "None",
+      "cognitoIdentityId": "None",
+      "apiKey": "test-invoke-api-key",
+      "principalOrgId": "None",
+      "cognitoAuthenticationType": "None",
+      "userArn": "arn:aws:iam::901034071818:user/davehobtcharterandgo",
+      "apiKeyId": "test-invoke-api-key-id",
+      "userAgent": "aws-internal/3 aws-sdk-java/1.12.71 Linux/5.4.134-73.228.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.302-b08 java/1.8.0_302 vendor/Oracle_Corporation cfg/retry-mode/standard",
+      "accountId": "901034071818",
+      "caller": "AIDA5DSOQ24FEQHST7T5M",
+      "sourceIp": "test-invoke-source-ip",
+      "accessKey": "ASIA5DSOQ24FKWQYQJUP",
+      "cognitoAuthenticationProvider": "None",
+      "user": "AIDA5DSOQ24FEQHST7T5M"
+    },
+    "domainName": "testPrefix.testDomainName",
+    "apiId": "ep1whunwb5"
+  },
+  "body": {
+    "id": "arfq-1000000136",
+    "href": "https://sandbox.avinode.com/api/rfqs/arfq-1000000136",
+    "type": "rfqs"
+  },
+  "isBase64Encoded": "false"
+}

@@ -1,0 +1,9 @@
+aws-psycopg2==1.2.1
+boto3==1.18.44
+PyJWT==1.7.1
+cryptography==3.3.2
+bcrypt==3.2.0
+jwt==1.2.0
+requests==2.26.0
+
+
